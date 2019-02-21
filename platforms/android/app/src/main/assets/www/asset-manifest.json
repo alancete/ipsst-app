@@ -1,0 +1,22 @@
+{
+  "main.css": "../www/static/css/main.019cf53d.chunk.css",
+  "main.js": "../www/static/js/main.7dc56000.chunk.js",
+  "main.js.map": "../www/static/js/main.7dc56000.chunk.js.map",
+  "static/css/1.3d89f89b.chunk.css": "../www/static/css/1.3d89f89b.chunk.css",
+  "static/js/1.d9c0414a.chunk.js": "../www/static/js/1.d9c0414a.chunk.js",
+  "static/js/1.d9c0414a.chunk.js.map": "../www/static/js/1.d9c0414a.chunk.js.map",
+  "runtime~main.js": "../www/static/js/runtime~main.d93050a7.js",
+  "runtime~main.js.map": "../www/static/js/runtime~main.d93050a7.js.map",
+  "static/media/logo.png": "../www/static/media/logo.880603b8.png",
+  "static/media/credential.svg": "../www/static/media/credential.399062d9.svg",
+  "static/media/geocartilla.svg": "../www/static/media/geocartilla.d726e11f.svg",
+  "static/media/marker.svg": "../www/static/media/marker.f269e11d.svg",
+  "static/media/credential.jpg": "../www/static/media/credential.53fa0169.jpg",
+  "static/media/index.scss": "../www/static/media/slick.f97e3bbf.svg",
+  "static/media/notification.svg": "../www/static/media/notification.1f1a05fb.svg",
+  "static/css/main.019cf53d.chunk.css.map": "../www/static/css/main.019cf53d.chunk.css.map",
+  "static/css/1.3d89f89b.chunk.css.map": "../www/static/css/1.3d89f89b.chunk.css.map",
+  "index.html": "../www/index.html",
+  "precache-manifest.4558e9f5cd51651cad1188b8e32a25a1.js": "../www/precache-manifest.4558e9f5cd51651cad1188b8e32a25a1.js",
+  "service-worker.js": "../www/service-worker.js"
+}

@@ -1,0 +1,7 @@
+#Sun Dec 30 20:25:31 ART 2018
+base.0=C\:\\Users\\andre\\projects\\iapos-app\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\andre\\projects\\iapos-app\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes2.dex
+base.1=C\:\\Users\\andre\\projects\\iapos-app\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+file.0=C\:\\Users\\andre\\projects\\iapos-app\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
