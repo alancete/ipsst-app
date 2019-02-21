@@ -1,0 +1,11 @@
+body {
+  .page {
+    &.notifications {
+      margin-top: 110px;
+
+      .notification-filters {
+        margin: 0 0 8px 0;
+      }
+    }
+  }
+}

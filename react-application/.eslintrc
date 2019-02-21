@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "func-names": ["error", "never"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-one-expression-per-line": ["enabled", { "allow": "single-child" }],
+    "import/no-extraneous-dependencies": ["off", { "devDependencies": true }],
+    "global-require": "off",
+    "no-underscore-dangle": "off"
+  }
+}

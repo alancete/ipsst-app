@@ -1,0 +1,119 @@
+body {
+	.checkout {
+		margin-top: 110px;
+		&.payment {
+
+			font-size: 20px;
+			line-height: 32px;
+
+
+			.card-wrapper {
+				margin: 32px 0;
+			}
+
+			.choose-plan {
+				margin-top: 24px;
+			}
+
+			>.container {
+
+				background-color: white;
+				padding-top:32px;
+				padding-bottom:32px;
+			}
+
+			.form-control {
+				font-size: 16px;
+			}
+
+			.total-price {
+				li {
+					&.active {
+						a {
+							.badge {
+								font-size: 22px;
+							}
+						}
+					}
+				}
+			}
+
+			.panel-title {display: inline;font-weight: bold;}
+			.checkbox.pull-right { margin: 0; }
+			.pl-ziro { padding-left: 0px; }
+
+
+			.installments-list {
+
+			    min-height: 24px;
+
+			    .financial-costs {
+			      font-size: 11px;
+			    }
+
+			    ul {
+
+			      li.row {
+
+			        &:first-child {
+			          margin-top: 4px;
+			        }
+
+			        label {
+
+			          width: 100%;
+			          padding: 2px 4px 2px 8px;
+			          margin: 0;
+			          cursor: pointer;
+			          font-size: 17px;
+
+			          p {
+			            display: inline;
+			            margin-left: 4px;
+
+			            i {
+			              text-transform: uppercase;
+			              padding: 2px 8px;
+			              font-size: 12px;
+			              letter-spacing: 0;
+			              font-weight: 500;
+
+			              &.extra-off {
+			                display: inline-block;
+			              }
+			            }
+			          }
+			        }
+			      }
+			    }
+			  }
+
+			.jp-card {
+		        .jp-card-front {
+		            
+		          .jp-card-bank {
+				    font-size: 11px;
+				    top: 23px;
+				    left: 32px;
+				    position: absolute;
+				    text-transform: uppercase;
+				    font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+		          }
+
+
+		          .jp-card-lower {
+		            .jp-card-number {
+		              font-size: 17px;
+		            }
+
+		            .jp-card-name {
+                  font-size: 15px;
+		            }
+
+		          }
+		        }
+		    }
+
+		}
+	}
+}

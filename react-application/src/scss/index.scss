@@ -1,0 +1,21 @@
+@import '_custom.scss';
+
+@import 'global.scss';
+@import 'header.scss';
+@import 'home.scss';
+@import 'checkout.scss';
+@import 'login.scss';
+@import 'copagos.scss';
+@import 'geocartilla.scss';
+@import 'credential.scss';
+@import 'debit.scss';
+@import '../components/MainMenu/scss/mainmenu.scss';
+@import '../components/Gallery/scss/gallery.scss';
+@import '../components/Notifications/scss/notifications.scss';
+
+@import 'library/card.css';
+@import 'library/fontawesome-stars.css';
+
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

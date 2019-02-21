@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700');
+
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: #e5f7ff;
+  color: #191919;
+  position: relative;
+  font-size: 11px;
+  line-height: 16px;
+
+  p {
+    font-size: 12px;
+  }
+
+  .btn.btn-sm {
+    font-size: 10px;
+    margin-top: 8px;
+  }
+
+  .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    background-color: $brand-primary;
+  }
+
+  &.main, .main {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment:fixed;
+    min-height: calc(100vh - 72px);
+    overflow-x: hidden;
+  }
+  .clearfix {
+    clear: both;
+  }
+  .disabled {
+    color: #999999 !important;
+  }
+  .main {
+    margin-top: 0px;
+  }
+  a.btn.btn-primary {
+    color: white;
+  }
+  h2, h3, h4 {
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 22px;
+    color: $brand-info;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+
+  h4 {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  h2 strong {
+    font-weight: 600;
+  }
+  .page {
+    padding: 16px;
+  }
+  .hidden {
+    display: none;
+  }
+  .form-signin {
+    margin-bottom: 16px;
+  }
+  .btn-primary {
+    margin-top: 24px;
+    background-color: #18407b;
+    border-color: #18407b;
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    > div {
+      background-color: #50c193;
+      height: 100%;
+      margin: 0 3px 0 0;
+      width: 6px;
+      display: inline-block;
+      -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+      animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    }
+    .rect2 {
+      -webkit-animation-delay: -1.1s;
+      animation-delay: -1.1s;
+    }
+    .rect3 {
+      -webkit-animation-delay: -1s;
+      animation-delay: -1s;
+    }
+    .rect4 {
+      -webkit-animation-delay: -0.9s;
+      animation-delay: -0.9s;
+    }
+    .rect5 {
+      -webkit-animation-delay: -0.8s;
+      animation-delay: -0.8s;
+    }
+  }
+
+  .badge-notification {
+    position:relative;
+  }
+  .badge-notification[data-badge]:after {
+      content:attr(data-badge);
+      position:absolute;
+      top:4px;
+      right:4px;
+      font-size:0.9em;
+      background:red;
+      color:white;
+      width:24px;
+      height:24x;
+      text-align:center;
+      line-height:24px;
+      border-radius:50%;
+      box-shadow:0 0 1px #333;
+  }
+
+  .btn-secondary, .btn-info {
+    background-color: $brand-info;
+    border-color: $brand-info;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .btn {
+    // border-radius: 16px;
+  }
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    -webkit-transform: scaleY(0.4);
+  }
+
+  20% {
+    -webkit-transform: scaleY(1);
+  }
+}
+
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}
+
+
+@media (min-width: 1367px) {
+  body {
+    &.main, .main {
+      background-size: 100%;
+    }
+  }
+}
